@@ -1,0 +1,4 @@
+kafka-python==2.0.5
+requests==2.27.1
+json5==0.9.6
+cassandra-driver
