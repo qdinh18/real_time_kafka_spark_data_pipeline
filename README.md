@@ -26,7 +26,7 @@ cd project-directory
 ```
 
 ### 2. Directory Structure
-
+```plaintext
 ├── dags/
 │   └── kafka_stream.py
 │   └── streaming_to_kafka.py
@@ -35,8 +35,7 @@ cd project-directory
 ├── requirements.txt
 └── script/
     └── entrypoint.sh
-
-
+```
 ## How to run
 
 ### 1. Start Docker Containers
