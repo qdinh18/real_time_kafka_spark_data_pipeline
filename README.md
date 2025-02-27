@@ -36,6 +36,7 @@ cd project-directory
 └── script/
     └── entrypoint.sh
 
+
 ## How to run
 
 ### 1. Start Docker Containers
@@ -47,7 +48,7 @@ docker-compose up -d
 1. Access Airflow UI: `http://localhost:8080`
 2. Enable `push_data_to_broker` DAG
 
-   ![Screenshot 2025-02-27 at 01 24 33](https://github.com/user-attachments/assets/817d8145-b575-40fc-8bc0-b132951aa16e)
+![Screenshot 2025-02-27 at 01 24 33](https://github.com/user-attachments/assets/817d8145-b575-40fc-8bc0-b132951aa16e)
 
 
 ### 3. Check the condition of Zookeeper and Broker via control center (Confluent at port 9021).
@@ -105,7 +106,7 @@ docker exec -it cassandra cqlsh -u cassandra -p cassandra localhost 9042
 - Creates Cassandra schema
 - Writes to `spark_streams.users_profile` table
 
-## Useful links
+## Useful links:
 
 https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10
 
