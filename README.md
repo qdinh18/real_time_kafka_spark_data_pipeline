@@ -12,7 +12,8 @@ A data pipeline that streams user data from an API, processes it in real-time, a
 
 ## Architecture
 
-![Screenshot 2025-02-27 at 13 43 47](https://github.com/user-attachments/assets/74b9c1f2-23e7-4f35-ba26-a64dd183772e)
+
+![Screenshot 2025-02-27 at 13 48 21](https://github.com/user-attachments/assets/c426cabc-b537-4995-a55e-d2a219dd13e1)
 
 
 
